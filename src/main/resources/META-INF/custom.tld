@@ -9,5 +9,11 @@
         <body-content>empty</body-content>
         <!-- body content is used to pass values to your tag code -->
     </tag>
+    <tag>
+        <name>TimeSmartHello</name>
+        <tag-class>com.ricabruinsma.customtags.TimeSmartGreetingTag</tag-class>
+        <body-content>empty</body-content>
+        <!-- body content is used to pass values to your tag code -->
+    </tag>
 
 </taglib>
