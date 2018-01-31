@@ -10,6 +10,6 @@ public class TimeSmartGreetingTag extends SimpleTagSupport {
     public void doTag() throws JspException, IOException {
         super.doTag();
         JspWriter out = getJspContext().getOut();
-        out.println("Hello Ent Java Class!");
+        out.println("Hello Ent Java Class!  Do you know what time it is???");
     }
 }
