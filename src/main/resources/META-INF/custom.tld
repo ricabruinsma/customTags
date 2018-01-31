@@ -1,0 +1,13 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee">
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Hello World Tag Lib Demo</short-name>
+    <uri>http://ricabruinsma.com/tags</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>com.ricabruinsma.customtags.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+        <!-- body content is used to pass values to your tag code -->
+    </tag>
+
+</taglib>
